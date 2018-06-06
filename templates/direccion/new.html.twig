@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Direccion{% endblock %}
+
+{% block body %}
+    <h1>Create new Direccion</h1>
+
+    {{ include('direccion/_form.html.twig') }}
+
+    <a href="{{ path('direccion_index') }}">back to list</a>
+{% endblock %}

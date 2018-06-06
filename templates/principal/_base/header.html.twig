@@ -1,0 +1,36 @@
+<header>    
+  <nav class="navbar navbar-expand-lg fixed-top">        
+    <img src="{{ asset('imagenes/logo.svg') }}">
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Conócenos <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Supermercados <span class="sr-only">(current)</span></a>
+              </li><li class="nav-item active">
+                <a class="nav-link" href="#">Traba con nosotros <span class="sr-only">(current)</span></a>
+              </li><li class="nav-item active">
+                <a class="nav-link" href="#">Atención al Cliente <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>            
+            <span>Español <i class="fas fa-angle-down"></i></span>          
+          </div>
+    </nav>    
+    <div class="container-fluid" id="cabecera">
+            <br><br>
+            <div class="row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                  <p>Empieza tu compra<br> en Mercadona</p>  
+                  <br>
+                  <form class="form-inline my-2 my-lg-0" method="POST" action="{{ path('formulariocp') }}">
+                    <input class="form-control mr-sm-2" name="inputcp" type="text" placeholder="Cógigo postal" >
+                    <button class="btn btn btn-success my-2 my-sm-0" id="cp-entrar" type="submit">ENTRAR  <i class="fas fa-arrow-right"></i></button>
+                  </form>
+                    <br><br><br><br><br>
+                </div>
+            </div>
+    </div>    
+</header>

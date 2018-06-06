@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+            <link rel="stylesheet" href="{{ asset('build/apptienda.css') }}">
+
+
+            
+        {% endblock %}
+
+        {% block stylesheets_extra %}
+            <link rel="stylesheet">
+
+            <link rel="stylesheet" href="{{ asset('build/tienda.css') }}">
+            
+        {% endblock %}
+
+    </head>
+    <body>
+        {% block header %}
+            {% include '_base/header.html.twig' %}
+        <header>
+        </header>
+        {% endblock %}
+
+        {% block body %}{% endblock %}
+
+            {% block footer %}
+                {% include '_base/footer.html.twig' %}
+            <footer>
+            </footer>
+            {% endblock %}
+
+  
+    </body>
+</html>
+

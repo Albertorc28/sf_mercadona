@@ -1,0 +1,84 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+header nav {
+    background-color: white;
+    border-bottom: solid 1px #b5b4b2;
+}
+
+header > nav > img {
+    margin-left: 10px;
+    width: 210px;
+}
+header > nav > div > ul > li > form{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+header >nav li {
+    margin: 13px;
+}
+header > nav li.nav-item > a {
+    color: #787674;
+    font-size: 14px;
+    font-weight:bold;
+}
+
+header > nav span {
+    color: #787674;
+    font-size: 14px;
+    font-weight:bold;
+}
+#busquedaInput{
+   border-bottom-left-radius: 2em;
+   border-bottom-right-radius: 2em;
+   border-top-left-radius: 2em;
+   border-top-right-radius: 2em;
+   margin-left: 20px;
+   width: 350px;
+   background-color: hsla(40,6%,90%,.3);
+   box-shadow: none;
+}
+
+body{
+	margin-top:80px;
+}
+
+body .col15 .card{
+	width:200px;
+	margin-top:10px;
+}
+
+body .row{
+	margin-left:80px;
+}
+
+body .card button{
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	color:#714000;
+	width:170px;
+	height:32px;
+  font-size:15px;
+}
+
+body .card button:hover{
+	background-color:rgba(252,184,49,.4);
+	color:#c06307;
+}
+
+.texto{
+	height:130px;
+}
+
+body .card p{
+  color:black;
+}
+
+body .card-deck .card a:hover{
+  text-decoration: none;
+}
+
+body .card-deck > .row > .col15 > .card:hover{
+  box-shadow: 0 4px 12px 0 rgba(59,57,55,.2);
+}

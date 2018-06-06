@@ -1,0 +1,99 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+header nav {
+    background-color: white;
+}
+header > nav > img {
+    margin-left: 60px;
+    width: 220px;
+}
+header > nav > div > span {
+    margin-right: 60px;
+}
+header >nav li {
+    margin: 13px;
+}
+header > nav li.nav-item > a {
+    color: #00ab61;
+    font-size: 14px;
+}
+header > #cabecera {
+    background-image: url("https://www.mercadona.es/img/header-medium.088535.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    text-align: left;
+    margin-top: 80px;
+}
+header > #cabecera p {
+   font-size: 40px;
+   font-family: PT Serif;
+   font-weight: 600;
+   color: white;
+   text-align: left;
+}
+
+.form-control, .form-control:focus{
+    border:0px;
+    box-shadow: none;
+    height: 50px;
+}
+
+.btn, .btn:hover{
+    background-color: #00aa55;
+    border: none;
+    height: 50px;
+    letter-spacing: 2px;
+    font-family: Muli;
+    font-size: .875rem;
+    word-spacing: 13px;
+}
+
+.container h4{
+	font-weight: bold;
+	font-family: PT Serif;
+	font-size: 20px;
+	color:black;
+}
+
+.container p{
+	font-family: Muli;
+	color:#595754;
+}
+
+.container a{
+	color: #00ab61;
+}
+
+.container a{
+	color: #00ab61;
+	text-decoration: none;
+}
+
+footer{
+	background-color:#1c3037;
+}
+
+footer .container-fluid h4{
+	font-weight: bold;
+	color:#cdd1d3;
+}
+
+footer .container-fluid ul p a ,footer .container-fluid ul h4 a{
+	color:#cdd1d3;
+}
+
+footer .container-fluid ul{
+	list-style: none;
+}
+
+footer .container-fluid ul p a:hover , footer .container-fluid ul h4 a:hover{
+	list-style: none;
+	color:#cdd1d3;
+	text-decoration: none;
+}
+
+footer .container-fluid ul p a i{
+	color:#cdd1d3;
+	font-size:30px;
+}
+

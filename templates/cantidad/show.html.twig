@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Cantidad{% endblock %}
+
+{% block body %}
+    <h1>Cantidad</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ cantidad.id }}</td>
+            </tr>
+            <tr>
+                <th>Cantidad</th>
+                <td>{{ cantidad.cantidad }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('cantidad_index') }}">back to list</a>
+
+    <a href="{{ path('cantidad_edit', {'id': cantidad.id}) }}">edit</a>
+
+    {{ include('cantidad/_delete_form.html.twig') }}
+{% endblock %}

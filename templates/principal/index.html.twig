@@ -1,0 +1,49 @@
+{% extends 'principal/base.html.twig' %}
+
+{% block stylesheets_extra %}
+        <link rel="stylesheet" href="{{ asset('build/principal.css') }}">
+            
+{% endblock %}
+
+{% block body %}
+<br>
+<br>
+<div class="container">
+	<div class="row">
+			<div class="col-sm">
+				<img src="{{ asset('imagenes/logo-cabecera-index1.png') }}">
+                <br>
+                <br>
+                <h4>Nueva web y servicio <br>en Valencia centro</h4>
+                <br>
+                <p>Tu compra en casa de 7:00 a 22:00. Tramos <br>de 1 hora. Calidad y frescura como en tu <br>tienda.</p>
+            </div>
+            <div class="col-sm">
+                <img src="{{ asset('imagenes/logo-cabecera-index2.png') }}">
+                <br><br>
+                <h4>Próximamente en <br>otras zonas</h4>
+                <br>
+                <p>Si quieres que te avisemos, déjanos tu email y <br>tu código postal</p>
+                <p><a href="#">Sí, avisadme</a></p>
+            </div>
+            <div class="col-sm">
+                <img src="{{ asset('imagenes/logo-cabecera-index3.png') }}">
+                <br><br>
+                <h4>La versión clásica <br>sigue existiendo</h4>
+                <br>
+                <p>Si al introducir tu código postal, aún no <br>llegamos a tu zona, puedes seguir comprando <br>en Mercadona a través de la web de siempre.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div>
+        <section class="map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d12362.453704998086!2d-7.0122238999999995!3d39.22894455!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ses!4v1527836836292" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+    </div>
+
+{% endblock %}
+
+
+
